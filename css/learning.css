@@ -1,0 +1,30 @@
+
+.container > ul li {
+    list-style: numbered;
+    
+}
+.container img {
+    width: 60%;
+}
+
+.header {
+    height: 40%;
+    margin-top:0;
+    padding:0;
+    border-bottom: 2px solid white;
+}
+.header ul {
+    display:flex;
+}
+.header nav li {
+    width: 25%;
+    list-style: none;
+}
+.header ul a{
+    color: #ff7d27;
+}
+body {
+    background-color: #282b2f;
+
+}
+
