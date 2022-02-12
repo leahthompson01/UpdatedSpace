@@ -755,3 +755,18 @@ body.lb-disable-scrolling {
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
   opacity: 1;
 }
+
+.learningheader ul{
+  padding: 2% 0;
+  display: flex;
+}
+.learningheader ul li {
+  width:25%;
+  list-style-type: none;
+}
+.learningsection ul li {
+  list-style-type: decimal;
+}
+.learningsection img {
+  width: 60%;
+}

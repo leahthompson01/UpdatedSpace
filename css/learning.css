@@ -1,30 +1,14 @@
-
-.container > ul li {
-    list-style: decimal;
-    
+.learningheader ul{
+    display: flex;
 }
-.container img {
+.learningheader ul li {
+    width:15%;
+}
+.learningsection ul li {
+    list-style-type: decimal;
+}
+.learningsection img {
     width: 60%;
 }
 
-.header {
-    height: 40%;
-    margin-top:0;
-    padding:0;
-    border-bottom: 2px solid white;
-}
-.header ul {
-    display:flex;
-}
-.header nav li {
-    width: 25%;
-    list-style: none;
-}
-.header ul a{
-    color: #ff7d27;
-}
-body {
-    background-color: #282b2f;
-
-}
 
