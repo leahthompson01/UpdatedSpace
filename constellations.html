@@ -12,6 +12,8 @@
     <link rel="stylesheet" href="css/hero-slider.css">
     <link rel="stylesheet" href="css/main.css">
 
+    
+    <script type="text/javascript" src="js\app.js"></script>
     <script type="text/javascript" src=".\Constellation App\js\astro.js"></script>
     <script type="text/javascript" src=".\Constellation App\js\observer.js"></script>
     <script type="text/javascript" src=".\Constellation App\js\skypos.js"></script>
@@ -28,7 +30,7 @@
     
     <div id="canvas">
         
-        <canvas id="planicanvas" width="1600" height="1600">
+        <canvas id="planicanvas" width="1595" height="1595">
         </canvas>
         <canvas id="white-circle" width="1600" height="1600"> 
         </canvas>
@@ -37,6 +39,16 @@
         <h2>Which constellations can you find? Click below to see the constellations labeled!</h2>
        <button id="user_conlab" onclick="toggle()">Reveal Constellations</button>
     </div>
+    <h3 class="quotes">Constellations are groups are stars that appear as objects or creatures in the sky.</h3>
+    <h3 class="quotes">There are currently 88 "official" constellations.</h3>
+    <h3 class="quotes">Most constellations were influenced by ancient Middle Eastern, Greek, and Roman cultures.</h3>
+    <h3 class="quotes">An asterism is a recognized grouping of stars that isn't an official constellation, like The Big Dipper.</h3>
+    <h3 class="quotes"></h3>
+    <h3 class="quotes"></h3>
+    <h3 class="quotes"></h3>
+    <h3 class="quotes"></h3>
+    <h3 class="quotes"></h3>
+    <h3 class="quotes"></h3>
 </div>
     <div class="fixed-side-navbar">
         <ul class="nav flex-column">
@@ -69,6 +81,26 @@
     </footer>
 
 
+    <script
+  src="js\jquery-3.6.0.min.js"
+  integrity="sha256-Qw82+bXyGq6MydymqBxNPYTaUXXq7c8v3CwiYwLLNXU="
+  crossorigin="anonymous">
+    function () {
+
+        var quotes = $(".quotes");
+        var quoteIndex = -1;
+        
+        function showNextQuote() {
+            ++quoteIndex;
+            quotes.eq(quoteIndex % quotes.length)
+                .fadeIn(2000)
+                .delay(10000)
+                .fadeOut(2000, showNextQuote);
+        }
+        
+        showNextQuote();
+        
+    };</script>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>

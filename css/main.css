@@ -769,12 +769,22 @@ body.lb-disable-scrolling {
 .learningsection img {
   width: 60%;
 }
+
 .planet{  
   margin-left: 3%;
   width: 90%;
   height: 25em;
-  
 }
+
+/*Constellations*/
+#canvas{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;  
+}
+
 .planetcontainer,
 .firstplanet p {
   padding: 2%;
@@ -782,3 +792,51 @@ body.lb-disable-scrolling {
 .firstplanet h1 {
   text-align: center;
 }
+
+#main {
+  text-align: center;
+}
+
+.unsupported {
+  font-family: Helvetica;
+  color: #F44;
+}
+
+
+#planicanvas{ 
+ width: 60% ;
+ max-width: 1000px;
+ min-width: 800px;
+ height:60%;
+ margin: auto;
+ margin-top: 25px;
+}
+
+.black-background{
+  background-color: #0A0C17;
+}
+
+#white-circle {
+  background: white;
+  border-radius: 50%;
+  width: 60%;
+  max-width: 990px;
+  min-width: 795px;
+  left: 0;
+  right:0;
+  margin-left: auto;
+  margin-right: auto;
+  position: absolute;
+  margin-top: -57px;
+  z-index: -1;
+}
+
+#white-circle::before{
+  content:'';
+  display: block;
+  padding-bottom: 100%;
+  width: 60%;
+}
+
+/*constellation facts*/
+.quotes {display: none;}
