@@ -53,7 +53,7 @@ function draw_con_label( context, p )
 {
    context.fillStyle = "#789";
    context.strokeStyle = "#789";
-   context.font = "20px 'Comic Sans', cursive";
+   context.font = "24px 'Comic Sans', cursive";
    var s = p.name.toUpperCase();
    var w = context.measureText( s ).width;
    context.fillText( s, p.pos.x - w / 2, p.pos.y );
