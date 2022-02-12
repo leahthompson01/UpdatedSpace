@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
     <head>
@@ -22,17 +23,20 @@
 <body>
 
     <div class="fixed-side-navbar">
+<nav>
         <ul class="nav flex-column">
-            <li class="nav-item"><a class="nav-link" href="#home"><span>About</span></a></li>
-            <li class="nav-item"><a class="nav-link" href="#launches"><span>Launches</span></a></li>
-            <li class="nav-item"><a class="nav-link" href="#natural_events"><span>Natural Events</span></a></li>
-            <li class="nav-item"><a class="nav-link" href="#weather"><span>Weather Conditions</span></a></li>
-            <li class="nav-item"><a class="nav-link" href="#constellations"><span>Constellations</span></a></li>
-            <li class="nav-item"><a class="nav-link" href="#learning"><span>Learning</span></a></li>
+            <li class="nav-item"><a class="nav-link" href="index.html"><span>Home</span></a></li>
+            <li class="nav-item"><a class="nav-link" href="Aboutpage.html"><span>About</span></a></li>
+            <li class="nav-item"><a class="nav-link" href="Launches.html"><span>Launches</span></a></li>
+            <li class="nav-item"><a class="nav-link" href="natural events.html"><span>Weather Conditions and Natural Events</span></a></li>
+            <li class="nav-item"><a class="nav-link" href=".\constellations.html"><span>Constellations</span></a></li>
+            <li class="nav-item"><a class="nav-link" href="Learningpage.html"><span>Learning</span></a></li>
         
         </ul>
+      </nav>
     </div>
 
+  
     <section class="section main-banner" id="top" data-section="section1">
         <video autoplay muted loop id="bg-video">
             <source src="img/pexels.mp4" type="video/mp4" />
@@ -47,6 +51,7 @@
             </div>
         </div>
     </section>
+
 
     <div class="service-content" id="services">
         <div class="container">
@@ -74,7 +79,7 @@
                                 <h4>Constellations</h4>
                                 <div class="line-dec"></div>
                                 <p>Sed lacinia ligula est, at venenatis ex iaculis quis. Morbi sollicitudin nulla eget odio pellentesque.</p>
-                                <a href="#constellations">More</a>
+                                <a href=".\constellations.html">More</a>
                             
                             </div>
                         </div>
@@ -192,6 +197,8 @@
             </div>
         </div>
     </div>
+
+
     
     <footer>
         <div class="container">
@@ -218,16 +225,7 @@
     <script src="js/vendor/bootstrap.min.js"></script>
     <script src="js/plugins.js"></script>
     <script src="js/main.js"></script>
-    <script>
-        function openCity(cityName) {
-            var i;
-            var x = document.getElementsByClassName("city");
-            for (i = 0; i < x.length; i++) {
-               x[i].style.display = "none";  
-            }
-            document.getElementById(cityName).style.display = "block";  
-        }
-    </script>
+
 
     <script>
         $(document).ready(function(){
@@ -257,4 +255,6 @@
     </script>
 
 </body>
+
 </html>
+
