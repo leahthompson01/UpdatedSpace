@@ -756,6 +756,7 @@ body.lb-disable-scrolling {
   opacity: 1;
 }
 
+
 .learningheader ul{
   padding: 2% 0;
   display: flex;
@@ -770,3 +771,71 @@ body.lb-disable-scrolling {
 .learningsection img {
   width: 60%;
 }
+=======
+/*Constellations*/
+#canvas{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+}
+#canvas-container{
+  width: 100%;
+  display: table;
+  height: 100vh;
+  color: #F7E8E1;
+  text-align: center;
+}
+#night-sky-title{
+  text-align: center;
+  font-size: 5rem;
+  
+}
+
+#main {
+  text-align: center;
+}
+
+.unsupported {
+  font-family: Helvetica;
+  color: #F44;
+}
+
+
+#planicanvas{ 
+ width: 60%;
+ max-width: 1000px;
+ min-width: 800px;
+ height:60%;
+ margin: auto;
+ margin-top: 25px;
+}
+
+.black-background{
+  background-color: #0A0C17;
+}
+
+#white-circle {
+  background: white;
+  border-radius: 50%;
+  width: 60%;
+  max-width: 1000px;
+  min-width: 800px;
+  left: 0;
+  right:0;
+  margin-left: auto;
+  margin-right: auto;
+  position: absolute;
+  margin-top: -58px;
+  z-index: -1;
+}
+
+#white-circle::before{
+  content:'';
+  display: block;
+  padding-bottom: 100%;
+  width: 60%;
+}
+
