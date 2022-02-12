@@ -96,7 +96,7 @@ a:hover { color: #FF0; }
   -webkit-transition: all .3s;
   transition: all .3s;
   -webkit-transform: scale(0.6);
-          transform: scale(0.6);
+  transform: scale(0.6);
 }
 .fixed-side-navbar .nav > li a:hover {
   background-color: transparent;
@@ -112,7 +112,7 @@ a:hover { color: #FF0; }
 
 .fadeInRight {
   -webkit-animation-name: fadeInRight;
-          animation-name: fadeInRight;
+  animation-name: fadeInRight;
 }
 
 
@@ -130,47 +130,74 @@ a:hover { color: #FF0; }
 }
 
 
+
+/*********** Banner*********/
 .parallax-content {
   width: 100%;
   min-height: 100vh;
   background-size: cover;
 }
+.main-banner {
+  position: relative;
+  max-height: 100%;
+  overflow: hidden;
+  margin-bottom: -7px;
+}
 
+#bg-video {
+    min-width: 100%;
+    min-height: 100vh;
+    max-width: 100%;
+    max-height: 100vh;
+    object-fit: cover;
+    z-index: -1;
+}
 
-.baner-content {
-  padding-top: 30vh;
+#bg-video::-webkit-media-controls {
+    display: none !important;
+}
+
+.video-overlay {
+    position: absolute;
+    /* background-color: rgba(22,34,57,0.85); */
+    top: 0;
+    left: 0;
+    bottom: 7px;
+    width: 100%;
+}
+
+.main-banner .caption {
   text-align: center;
-  background-image: url("https://images.unsplash.com/photo-1543722530-d2c3201371e7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTd8fHNwYWNlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60");
+  position: absolute;
+  width: 80%;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
 }
-.video-container{
-  position: fixed;
-  right: 0;
-  bottom: 0;
-  min-width: 100%;
-  min-height: 100
 
-}
-.baner-content h1 {
+.main-banner .caption h6 {
   margin-top: 0px;
-  font-size: 128px;
-  color: #fff;
-  font-weight: 900;
+  font-size: 18px;
   text-transform: uppercase;
-  margin-bottom: 0px;
-}
-
-.baner-content em {
-  color: #ff7d27;
   font-weight: 600;
-  font-style: normal;
+  color: #fff;
+  letter-spacing: 1px;
 }
 
-.baner-content span {
-  display: inline-block;
-  margin-top: -20px;
-  font-weight: 300;
-  font-size: 48px;
+.main-banner .caption h2 {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-size: 64px;
+  text-transform: uppercase;
+  font-weight: 800;
   color: #fff;
+  letter-spacing: 1px;
+}
+
+.main-banner .caption h2 em {
+  font-style: normal;
+  color: #f5a425;
+  font-weight: 900;
 }
 
 .baner-content .primary-button {
