@@ -1,0 +1,14 @@
+.learningheader ul{
+    display: flex;
+}
+.learningheader ul li {
+    width:15%;
+}
+.learningsection ul li {
+    list-style-type: decimal;
+}
+.learningsection img {
+    width: 60%;
+}
+
+
