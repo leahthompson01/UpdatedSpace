@@ -5,11 +5,33 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Constellations</title>
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+
     <link rel="stylesheet" href="css/bootstrap.min.css">
-    <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+    <link rel="stylesheet" href="css/fontAwesome.css">
+    <link rel="stylesheet" href="css/hero-slider.css">
+    <link rel="stylesheet" href="css/main.css">
+
+    <link type="text/css" rel="stylesheet" href=".\Constellation App\css\plani.css">
+    <script type="text/javascript" src=".\Constellation App\js\astro.js"></script>
+    <script type="text/javascript" src=".\Constellation App\js\observer.js"></script>
+    <script type="text/javascript" src=".\Constellation App\js\skypos.js"></script>
+    <script type="text/javascript" src=".\Constellation App\js\skydb.js"></script>
+    <script type="text/javascript" src=".\Constellation App\js\plani.js"></script>
+    <script type="text/javascript">
+    window.addEventListener( "load", canvasApp, false );
+    </script>
 </head>
 <body>
+<div id="canvas-container">
+    <div id="canvas">
+        <canvas id="planicanvas" width="1600" height="1600">
+        </canvas>
+        <label for="toggleButton"></label>
+        <br>
+       <button id="user_conlab" onclick="toggle()">Reveal Constellations</button>
+    </div>
+</div>
     <div class="fixed-side-navbar">
         <ul class="nav flex-column">
             <li class="nav-item"><a class="nav-link" href="#home"><span>About</span></a></li>
@@ -74,6 +96,6 @@
           });
         });
     </script>
-
+ 
 </body>
 </html>
