@@ -1,6 +1,6 @@
 
 .container > ul li {
-    list-style: numbered;
+    list-style: decimal;
     
 }
 .container img {
