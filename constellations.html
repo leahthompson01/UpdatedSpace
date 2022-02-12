@@ -12,7 +12,6 @@
     <link rel="stylesheet" href="css/hero-slider.css">
     <link rel="stylesheet" href="css/main.css">
 
-    <link type="text/css" rel="stylesheet" href=".\Constellation App\css\plani.css">
     <script type="text/javascript" src=".\Constellation App\js\astro.js"></script>
     <script type="text/javascript" src=".\Constellation App\js\observer.js"></script>
     <script type="text/javascript" src=".\Constellation App\js\skypos.js"></script>
@@ -22,13 +21,20 @@
     window.addEventListener( "load", canvasApp, false );
     </script>
 </head>
-<body>
-<div id="canvas-container">
+<body class="black-background">
+    
+<div id="canvas-container">    
+    <h1 id="night-sky-title">The Current Night Sky Over Miami, Florida</h1>
+    
     <div id="canvas">
+        
         <canvas id="planicanvas" width="1600" height="1600">
+        </canvas>
+        <canvas id="white-circle" width="1600" height="1600"> 
         </canvas>
         <label for="toggleButton"></label>
         <br>
+        <h2>Which constellations can you find? Click below to see the constellations labeled!</h2>
        <button id="user_conlab" onclick="toggle()">Reveal Constellations</button>
     </div>
 </div>
