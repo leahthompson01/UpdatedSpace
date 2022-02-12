@@ -16,5 +16,8 @@ table {
    color: #A98;
 }
 #planicanvas{ 
-  width: 100%;
-  height:100%;
+  width: 50%;
+  height:50%;
+  margin: auto;
+  margin-top: 50px;
+}
