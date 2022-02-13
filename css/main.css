@@ -976,3 +976,21 @@ p{
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
 }
+.launch-item{
+  background: rgba(255, 255, 255, 0.671);
+box-shadow: 0 8px 32px 0 rgba(217, 219, 243, 0.37);
+backdrop-filter: blur( 4px );
+-webkit-backdrop-filter: blur( 4px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+margin: 10px;
+}
+.launch-text-content{
+  text-align: center;
+}
+#launch-title{
+  z-index: 3;
+  text-align: center;
+
+  color: #F7E8E1;
+}
