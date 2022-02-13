@@ -1024,7 +1024,7 @@ div.service-item{
   margin-left: auto;
   margin-right: auto;
   position: absolute;
-  margin-top: -100px;
+  margin-top: -135px;
   z-index: -1;
 }
 
@@ -1099,3 +1099,9 @@ li.cfacts:before {
   width: 1.3em;
 }
 
+#user_conlab{
+  margin: 20px;
+}
+#launches-footer{
+  margin-top:-200px;
+}
