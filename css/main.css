@@ -817,7 +817,7 @@ body.lb-disable-scrolling {
   flex-wrap: wrap;
 }
 .littleplanetcontainer,
-.factcontainer{
+.galaxycontainer{
   width: 48%;
   min-height: 30em;
   max-height:50em;
@@ -826,23 +826,43 @@ body.lb-disable-scrolling {
   border:2px solid #232323;
   background-color: #282B2F;
   border-radius: 50px;
+  text-align: center;
+}
+.factcontainer{
+  width: 48%;
+  min-height: 10em;
+  max-height:20em;
+  margin: 10px;
+  padding: 2%;
+  border:2px solid #232323;
+  background-color: #282B2F;
+  border-radius: 50px;
+  text-align: center;
+}
+.galaxyfooter{
+  margin-top: 2.3%;
+}
+.galaxycontainer{
+  margin: 0 auto;
 }
 .littleplanetcontainer > img{
   width:70%;
 }
 .factimage {
-  max-width: 60%;
-  max-height: 25em;
+  max-width: 20em;
+  max-height: 20em;
 }
 .planetinfo,
 .factinfo {
-  width: 70%;
+  padding: 1.2% 0;
+  width: 96%;
 }
 .littleplanetcontainer h1 {
   font: 700 43px/50px;
 }
 .planetpage,
-.learningpage {
+.learningpage,
+.galaxypage {
   margin-left: 2%;
   background-color: #0A0C17;
   color: #999999;
@@ -856,6 +876,13 @@ body.lb-disable-scrolling {
 }
 .firstfact {
   margin-top: 2%;
+}
+.secondfact{
+  margin-top: 1.6%;
+}
+.Venus{
+  min-height: 35em;
+  max-height: 40em;
 }
 
 #main {
