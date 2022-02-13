@@ -21,8 +21,27 @@ a:hover { color: #F7E8E1;
   text-decoration: none;
 border-bottom: 2px solid #0A134F;
 padding-bottom: 1px;}
+nav li{
 
-.fixed-navbar {
+  font-size: 20px;
+  padding: 0px;
+  margin: -10px 0px 0px 0px;
+  
+}
+nav ul li{
+  padding-right: 30px;
+}
+.navlink{
+  margin-left: -50px;
+}
+.navbar-brand{
+  margin-bottom: 10px;
+}
+.about-list{
+  display: block;
+}
+
+/*.fixed-navbar {
   background-color:#c9acc1;
   position: fixed;
   display: flex;
@@ -42,8 +61,7 @@ padding: 10px;
   border-right: 2px solid gray;
   
 
-
-}
+}*/
 /*----------
   NAV
 ----------*/
@@ -183,6 +201,7 @@ padding: 10px;
   max-height: 100%;
   overflow: hidden;
   margin-bottom: -7px;
+  margin-top: -50px;
 }
 
 #bg-video {
@@ -256,6 +275,7 @@ padding: 10px;
   min-height: 100vh;
   background-size: cover;
   background-position: center center;
+  margin-top: -25px;
 }
 
 .service-content .left-text h4 {
@@ -1001,7 +1021,7 @@ box-shadow: 0 8px 32px 0 rgba(217, 219, 243, 0.37);
 backdrop-filter: blur( 4px );
 -webkit-backdrop-filter: blur( 4px );
 border-radius: 10px;
-border: 1px solid rgba( 255, 255, 255, 0.18 );
+border: 1px solid rgba(165, 85, 85, 0.18);
 margin: 10px;
 }
 .launch-text-content{
@@ -1021,13 +1041,15 @@ margin: 10px;
   padding-top: 25px;
   padding-bottom: 25px;
 }
-ul{
+const-ul{
   list-style-type: none;
   padding: 0;
 }
-li {
+.cfacts {
   padding-left: 1.3em;
   display: inline;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 32px;
 }
 li.cfacts:before {
   content: "\f699"; /* FontAwesome Unicode */
@@ -1038,7 +1060,3 @@ li.cfacts:before {
   width: 1.3em;
 }
 
-.cfacts{
-  font-family: 'Roboto Mono', monospace;
-  font-size: 32px;
-}
