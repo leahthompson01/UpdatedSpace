@@ -1,6 +1,4 @@
-html{
-  background-color: #0A0C17;
-}
+
 
 p {
   font-size: 15px;
@@ -19,7 +17,10 @@ body {
 
 a { color: #DCC6D6; }
 
-a:hover { color: #F7E8E1; }
+a:hover { color: #F7E8E1;
+  text-decoration: none;
+border-bottom: 2px solid #0A134F;
+padding-bottom: 1px;}
 
 /*----------
   NAV
@@ -131,7 +132,18 @@ a:hover { color: #F7E8E1; }
   letter-spacing: 0.5px;
 }
 
-
+.primary-button {
+  display: inline-block;
+  background-color: #DCC6D6;
+  padding: 15px 24px;
+  border-radius: 3px;
+  text-transform: uppercase;
+  font-size: 11px;
+  color: #0A134F;
+  font-weight: 700;
+  text-decoration: none;
+  letter-spacing: 0.5px;
+}
 
 /*********** Banner*********/
 .parallax-content {
@@ -926,7 +938,7 @@ div.service-item{
   margin-left: auto;
   margin-right: auto;
   position: absolute;
-  margin-top: -57px;
+  margin-top: -142px;
   z-index: -1;
 }
 
@@ -942,4 +954,17 @@ div.service-item{
 
 .testimonials-item{
   height: 400px;
+}
+/*adding font */
+h1{
+  font-family: 'Roboto Mono', monospace;;
+  font-size: 60px;
+}
+h2{
+  font-family: 'Roboto Mono', monospace;
+  font-size: 36px;
+}
+p{
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
 }
