@@ -935,7 +935,6 @@ div.service-item{
 .planetpage,
 .learningpage,
 .galaxypage {
-  margin-left: 2%;
   background-color: #0A0C17;
   color: #999999;
 }
@@ -951,6 +950,10 @@ div.service-item{
 }
 .secondfact{
   margin-top: 1.6%;
+}
+.learningsection,
+.planetcontent {
+  margin-left: 2%;
 }
 
 .aboutuspage {
