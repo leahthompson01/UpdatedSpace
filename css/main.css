@@ -817,21 +817,11 @@ body.lb-disable-scrolling {
   flex-wrap: wrap;
 }
 .littleplanetcontainer,
-.galaxycontainer{
-  width: 48%;
-  min-height: 30em;
-  max-height:50em;
-  margin: 10px;
-  padding: 2%;
-  border:2px solid #232323;
-  background-color: #282B2F;
-  border-radius: 50px;
-  text-align: center;
-}
+.galaxycontainer,
 .factcontainer{
   width: 48%;
-  min-height: 10em;
-  max-height:20em;
+  min-height: 20em;
+  max-height:50em;
   margin: 10px;
   padding: 2%;
   border:2px solid #232323;
@@ -849,7 +839,7 @@ body.lb-disable-scrolling {
   width:70%;
 }
 .factimage {
-  max-width: 20em;
+  max-width: 55%;
   max-height: 20em;
 }
 .planetinfo,
@@ -880,10 +870,7 @@ body.lb-disable-scrolling {
 .secondfact{
   margin-top: 1.6%;
 }
-.Venus{
-  min-height: 35em;
-  max-height: 40em;
-}
+
 
 #main {
   text-align: center;
