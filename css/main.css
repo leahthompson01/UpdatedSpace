@@ -22,6 +22,7 @@ a:hover { color: #F7E8E1;
 border-bottom: 2px solid #0A134F;
 padding-bottom: 1px;}
 
+
 /*----------
   NAV
 ----------*/
@@ -30,7 +31,7 @@ padding-bottom: 1px;}
   position: fixed;
   top: 50%;
   right: 0;
-  z-index: 99999;
+  z-index: 99999; 
   margin-top: -100px;
   text-align: right;
   padding: 30px 0;
@@ -41,12 +42,13 @@ padding-bottom: 1px;}
   background: transparent;
 }
 .fixed-side-navbar:hover .nav > li > a > span {
-  color: rgba(0, 0, 0, 0.5);
+  color:  #575454;
   display: block;
-  background-color: #fff;
+  background-color: #DCC6D6;
   text-align: center;
   text-transform: uppercase;
-  font-size: 12px;
+  font-weight: 600;
+  font-size: 16px;
   padding: 2px 12px;
   border-radius: 15px;
 }
@@ -67,22 +69,28 @@ padding-bottom: 1px;}
   width: 16px;
   height: 16px;
   background: transparent;
-  border: 2px solid #fff;
+  border: 2px solid #c9acc1;;
   border-radius: 10px;
 }
 .nav>li {
+  margin: 1.2% 0;
   position: relative;
   display: block;
+  border: 2px solid #c9acc1;
+  background-color: #c9acc1;
+  border-radius: 7px;
 }
 .fixed-side-navbar .nav > li a {
-  color: #fff;
+  color: #575454;
+  font-weight: 600;
+  font-size: 16px;
   min-height: 32px;
   background: transparent;
-  padding: 5px 45px 5px 25px;
-  border-right: none;
+  padding: 5px 45px 5px 25px; 
+  border-right: none; 
 }
 .fixed-side-navbar .nav > li a span {
-  display: none;
+  /*  display: none; */
   -webkit-transition: all .2s;
   transition: all .2s;
 }
@@ -303,7 +311,7 @@ h4, .h4 {
   height: 300px;
   text-align: center;
   padding: 20px;
-  
+
 }
 
 .projects-content .item .text-content h4 {
