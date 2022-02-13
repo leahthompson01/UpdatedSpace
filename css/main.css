@@ -782,25 +782,17 @@ body.lb-disable-scrolling {
   opacity: 1;
 }
 
-.learningheader ul{
-  padding: 2% 0;
-  display: flex;
-}
-.learningheader ul li {
-  width:25%;
-  list-style-type: none;
-}
-.learningsection ul li {
-  list-style-type: decimal;
-}
-.learningsection img {
-  width: 60%;
-}
 
+.learningheader ul li {
+  padding: 1.2% 0;
+  width: 33%;
+  display: inline-block;
+  padding-left: 12%;
+}
 .planet{  
   margin-left: 3%;
   width: 90%;
-  height: 25em;
+  height: 40em;
 }
 
 /*Constellations*/
@@ -818,6 +810,52 @@ body.lb-disable-scrolling {
 }
 .firstplanet h1 {
   text-align: center;
+}
+.bigplanetcontainer,
+.bigcontainer {
+  display: flex;
+  flex-wrap: wrap;
+}
+.littleplanetcontainer,
+.factcontainer{
+  width: 48%;
+  min-height: 30em;
+  max-height:50em;
+  margin: 10px;
+  padding: 2%;
+  border:2px solid #232323;
+  background-color: #282B2F;
+  border-radius: 50px;
+}
+.littleplanetcontainer > img{
+  width:70%;
+}
+.factimage {
+  max-width: 60%;
+  max-height: 25em;
+}
+.planetinfo,
+.factinfo {
+  width: 70%;
+}
+.littleplanetcontainer h1 {
+  font: 700 43px/50px;
+}
+.planetpage,
+.learningpage {
+  margin-left: 2%;
+  background-color: #0A0C17;
+  color: #999999;
+}
+.learning-header {
+  margin: 0 auto;
+  padding-bottom: 2%;
+  width: 100%;
+  height: 2%;
+  text-align: center;
+}
+.firstfact {
+  margin-top: 2%;
 }
 
 #main {
