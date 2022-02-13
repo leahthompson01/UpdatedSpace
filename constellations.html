@@ -22,11 +22,12 @@
     <script type="text/javascript">
     window.addEventListener( "load", canvasApp, false );
     </script>
+    <script src="https://kit.fontawesome.com/cd638a595f.js" crossorigin="anonymous"></script>
 </head>
 <body class="black-background">
     
 <div id="canvas-container">    
-    <h1 id="night-sky-title">The Current Night Sky Over Miami, Florida</h1>
+    <h1 id="night-sky-title">The Current Sky Over Miami, Florida</h1>
     
     <div id="canvas">
         
@@ -36,19 +37,36 @@
         </canvas>
         <label for="toggleButton"></label>
         <br>
-        <h2>Which constellations can you find? Click below to see the constellations labeled!</h2>
+        <h2>Which constellations can you find? Click below to reveal them!</h2>
    <button class="primary-button" id="user_conlab" onclick="toggle()">Reveal Constellations</button>
     </div>
-    <h3 class="quotes">Constellations are groups are stars that appear as objects or creatures in the sky.</h3>
-    <h3 class="quotes">There are currently 88 "official" constellations.</h3>
-    <h3 class="quotes">Most constellations were influenced by ancient Middle Eastern, Greek, and Roman cultures.</h3>
-    <h3 class="quotes">An asterism is a recognized grouping of stars that isn't an official constellation, like The Big Dipper.</h3>
-    <h3 class="quotes"></h3>
-    <h3 class="quotes"></h3>
-    <h3 class="quotes"></h3>
-    <h3 class="quotes"></h3>
-    <h3 class="quotes"></h3>
-    <h3 class="quotes"></h3>
+
+<div id="constellation-facts">
+   <ul>      
+     <li class="cfacts"> Constellations are groups are stars that appear as objects or creatures in the sky.</li>
+   </section>
+   <section class="">
+    
+    <li class="cfacts"> There are currently 88 "official" constellations.</li>
+   </section>
+   <section class="">
+    
+    <li class="cfacts"> Most constellations were influenced by ancient Middle Eastern, Greek, and Roman cultures.</li>
+   </section>
+   <section class="">
+    
+    <li class="cfacts"> An asterism is a recognized grouping of stars that isn't an official constellation, like The Big Dipper.</li>
+
+   </section>
+   <section class="">
+    
+       <li class="cfacts"> Yes, you read that right. The Big Dipper is not an officially recognized constellation.</li>
+       
+   </section>
+    
+
+    </ul>
+ 
 </div>
 <div class="fixed-navbar">
     <nav>
@@ -102,7 +120,7 @@
     };</script>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-    <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"></script>')</script>
     <script src="js/vendor/bootstrap.min.js"></script>
     <script src="js/plugins.js"></script>
     <script src="js/main.js"></script>

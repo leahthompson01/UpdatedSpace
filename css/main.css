@@ -1013,3 +1013,32 @@ margin: 10px;
 
   color: #F7E8E1;
 }
+
+/*constellation facts*/
+#constellation-facts{
+  width: 75%;
+  margin: auto;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+ul{
+  list-style-type: none;
+  padding: 0;
+}
+li {
+  padding-left: 1.3em;
+  display: inline;
+}
+li.cfacts:before {
+  content: "\f699"; /* FontAwesome Unicode */
+  font-family: 'FontAwesome';
+  font-weight: 900;
+  display: inline;
+  margin-left: -1.3em;
+  width: 1.3em;
+}
+
+.cfacts{
+  font-family: 'Roboto Mono', monospace;
+  font-size: 32px;
+}
