@@ -1,4 +1,5 @@
 body {
+
     background-color: white;
     background-repeat: no-repeat;
     flex-direction: column;
@@ -13,7 +14,9 @@ body {
     font-size: xx-large;
     margin-bottom: 50px;
   }
-  
+  .mars-header{
+    padding-top: 200px;
+  }
   main {
     flex: 1 0 auto;
   }
@@ -29,3 +32,4 @@ body {
   footer {
     margin-top: 7rem;
   }
+ 
