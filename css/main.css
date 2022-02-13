@@ -887,6 +887,11 @@ div.service-item{
 .galaxycontainer{
   margin: 0 auto;
 }
+.learningheader{
+  position: relative;
+  z-index: 1;
+  padding-top:3%;
+}
 .littleplanetcontainer > img{
   width:70%;
 }
@@ -923,6 +928,37 @@ div.service-item{
   margin-top: 1.6%;
 }
 
+.aboutuspage {
+  padding: 2%;
+  overflow: auto;
+}
+.aboutus-wholepage {
+  background-color: #0A0C17;
+  color: #DCC6D6;
+}
+.aboutusitem{
+  width: 50%;
+  float: left;
+}
+.aboutusitem p {
+  width: 60%;
+}
+.aboutusname {
+  font: 700 32px/40px;
+}
+.linksaboutus{
+  list-style-type: none;
+  margin:0;
+  padding:0;
+}
+.linksaboutus li {
+  float: left;
+  width: 14%;
+  color:hotpink;
+}
+.linksaboutus a:hover {
+  color: #fff;
+}
 
 #main {
   text-align: center;
