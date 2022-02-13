@@ -286,8 +286,10 @@ h4, .h4 {
 
 .projects-content .item .text-content {
   background-color: #fff;
+  height: 300px;
   text-align: center;
   padding: 20px;
+  
 }
 
 .projects-content .item .text-content h4 {
@@ -301,6 +303,7 @@ h4, .h4 {
   font-size: 17px;
   font-weight: 700;
   color: #ff7d27;
+  margn-bottom: 30px;
 }
 
 .owl-pagination {
@@ -926,3 +929,7 @@ body.lb-disable-scrolling {
 
 /*constellation facts*/
 .quotes {display: none;}
+
+.testimonials-item{
+  height: 400px;
+}
