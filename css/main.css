@@ -28,6 +28,9 @@ nav li{
   margin: -10px 0px 0px 0px;
   
 }
+ul.navbar{
+  list-style-type: none;
+}
 nav ul li{
   padding-right: 30px;
 }
@@ -40,7 +43,9 @@ nav ul li{
 .about-list{
   display: block;
 }
-
+#learning-nav{
+  margin-left:0px !important;
+}
 /*.fixed-navbar {
   background-color:#c9acc1;
   position: fixed;
@@ -1019,7 +1024,7 @@ div.service-item{
   margin-left: auto;
   margin-right: auto;
   position: absolute;
-  margin-top: -142px;
+  margin-top: -100px;
   z-index: -1;
 }
 
