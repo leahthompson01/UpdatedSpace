@@ -14,6 +14,26 @@
         <link rel="stylesheet" href="css/main.css">
         <link rel="stylesheet" href="css/owl-carousel.css">
 
+        <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+         />
+      <link rel="preconnect" href="https://fonts.gstatic.com" />
+      <link
+        href="https://fonts.googleapis.com/icon?family=Material+Icons"
+        rel="stylesheet"
+         />
+  
+      <link rel="stylesheet" href="Space/css/weatherapp.css" />
+      <!-- Compiled and minified JavaScript -->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+      <script src="./weather.js"></script>
+      <script>
+        // onload render the previous tasks
+        window.addEventListener("load", getWeatherReport);
+      </script>
+      <title>Mars Weather</title>
+
         <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet">
 
         <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
@@ -31,6 +51,50 @@
         
         </ul>
     </div>
+    <div class="mars-header">
+        <span>
+          <i class="large material-icons">ac_unit</i>
+          <header>Mars Weather</header></span
+        >
+      </div>
+      <main>
+        <div class="row">
+          <div class="info">
+            <div>
+              <table>
+                <tbody>
+                  <tr>
+                    <td>
+                      <i class="material-icons">access_time</i> Terrestrial Date
+                    </td>
+                    <td id="terrestrial_date"></td>
+                  </tr>
+                  <tr>
+                    <td><i class="material-icons">whatshot</i> temp</td>
+                    <td id="temp"></td>
+                  </tr>
+                  <tr>
+                    <td><i class="material-icons">cloud_queue</i> weather</td>
+                    <td id="weather"></td>
+                  </tr>
+                  <tr>
+                    <td><i class="material-icons">looks</i> season</td>
+                    <td id="season"></td>
+                  </tr>
+                  <tr>
+                    <td><i class="material-icons">brightness_5</i> sunrise</td>
+                    <td id="sunrise"></td>
+                  </tr>
+                  <tr>
+                    <td><i class="material-icons">brightness_7</i> sunset</td>
+                    <td id="sunset"></td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </main>
     <footer>
         <div class="container">
             <div class="row">
@@ -47,6 +111,20 @@
                 </div>
             </div>
         </div>
+        <div class="footer-copyright">
+            <div>
+              Made by
+              <a href="https://schadokar.dev">schadokar</a>
+            </div>
+            <div>
+              Made with 
+              <a href="https://materializecss.com/">material ui</a>
+            </div>
+            <div>
+              <a href="https://github.com/day-to-day-coding/mars-weather-app"
+                ><i class="material-icons">code</i></a>
+            </div>
+          </div>
     </footer>
     
 </body>
