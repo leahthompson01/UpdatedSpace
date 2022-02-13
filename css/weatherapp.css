@@ -1,0 +1,31 @@
+body {
+    background-color: white;
+    background-repeat: no-repeat;
+    flex-direction: column;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    background-size: cover;
+  }
+  
+  header {
+    font-size: xx-large;
+    margin-bottom: 50px;
+  }
+  
+  main {
+    flex: 1 0 auto;
+  }
+  
+  .vertical-divider {
+    border-left: 1px solid gray;
+  }
+  
+  .page-footer .footer-copyright {
+    background-color: white;
+  }
+  
+  footer {
+    margin-top: 7rem;
+  }
