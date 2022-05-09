@@ -896,9 +896,9 @@ div.service-item{
 .littleplanetcontainer,
 .galaxycontainer,
 .factcontainer{
-  width: 48%;
+  max-width: 48%;
   min-height: 20em;
-  max-height:50em;
+  max-height:65em;
   margin: 10px;
   padding: 2%;
   border:2px solid #232323;
@@ -911,6 +911,7 @@ div.service-item{
 }
 .galaxycontainer{
   margin: 0 auto;
+  min-width: 60%;
 }
 .learningheader{
   position: relative;
